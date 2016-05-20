@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+target ‘频道切换’ do
+pod ‘SDWebImage’
+pod 'MJRefresh'
+pod 'MMDrawerController'
+pod 'AFNetworking'
+pod "DKNightVersion"
+end
