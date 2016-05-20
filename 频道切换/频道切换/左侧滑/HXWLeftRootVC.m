@@ -1,30 +1,25 @@
 //
-//  HXWNavigationController.m
+//  HXWLeftRootVC.m
 //  频道切换
 //
 //  Created by huaxianwei on 16/5/20.
 //  Copyright © 2016年 Jim. All rights reserved.
 //
 
-#import "HXWNavigationController.h"
+#import "HXWLeftRootVC.h"
 
-@interface HXWNavigationController ()
+@interface HXWLeftRootVC ()
 
 @end
 
-@implementation HXWNavigationController
--(UIStatusBarStyle)preferredStatusBarStyle{
-    if(self.mm_drawerController.showsStatusBarBackgroundView){
-        return UIStatusBarStyleLightContent;
-    }
-    else {
-        return UIStatusBarStyleDefault;
-    }
-}
+@implementation HXWLeftRootVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
+    self.view.backgroundColor = [UIColor orangeColor];
+    
+    self.navigationController.navigationBarHidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {

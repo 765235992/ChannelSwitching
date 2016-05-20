@@ -17,6 +17,13 @@
 		781514E31CEF548A005D2D24 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 781514E21CEF548A005D2D24 /* ____Tests.m */; };
 		781514EE1CEF548A005D2D24 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 781514ED1CEF548A005D2D24 /* ____UITests.m */; };
 		781D76741CEF5BB900E13D8E /* HXWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76731CEF5BB900E13D8E /* HXWNavigationController.m */; };
+		781D767B1CEF5E6100E13D8E /* HXWCenterRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76791CEF5E6100E13D8E /* HXWCenterRootVC.m */; };
+		781D767C1CEF5E6100E13D8E /* HXWCenterRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D767A1CEF5E6100E13D8E /* HXWCenterRootVC.xib */; };
+		781D76801CEF5E7B00E13D8E /* HXWRightRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D767E1CEF5E7B00E13D8E /* HXWRightRootVC.m */; };
+		781D76811CEF5E7B00E13D8E /* HXWRightRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D767F1CEF5E7B00E13D8E /* HXWRightRootVC.xib */; };
+		781D76851CEF5E9400E13D8E /* HXWLeftRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76831CEF5E9400E13D8E /* HXWLeftRootVC.m */; };
+		781D76861CEF5E9400E13D8E /* HXWLeftRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76841CEF5E9400E13D8E /* HXWLeftRootVC.xib */; };
+		781D76891CEF672200E13D8E /* HXWDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76881CEF672200E13D8E /* HXWDrawerVisualStateManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +64,17 @@
 		781D76721CEF5BB900E13D8E /* HXWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWNavigationController.h; sourceTree = "<group>"; };
 		781D76731CEF5BB900E13D8E /* HXWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWNavigationController.m; sourceTree = "<group>"; };
 		781D76751CEF5BE400E13D8E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		781D76781CEF5E6100E13D8E /* HXWCenterRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWCenterRootVC.h; sourceTree = "<group>"; };
+		781D76791CEF5E6100E13D8E /* HXWCenterRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWCenterRootVC.m; sourceTree = "<group>"; };
+		781D767A1CEF5E6100E13D8E /* HXWCenterRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWCenterRootVC.xib; sourceTree = "<group>"; };
+		781D767D1CEF5E7B00E13D8E /* HXWRightRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWRightRootVC.h; sourceTree = "<group>"; };
+		781D767E1CEF5E7B00E13D8E /* HXWRightRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWRightRootVC.m; sourceTree = "<group>"; };
+		781D767F1CEF5E7B00E13D8E /* HXWRightRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWRightRootVC.xib; sourceTree = "<group>"; };
+		781D76821CEF5E9400E13D8E /* HXWLeftRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWLeftRootVC.h; sourceTree = "<group>"; };
+		781D76831CEF5E9400E13D8E /* HXWLeftRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWLeftRootVC.m; sourceTree = "<group>"; };
+		781D76841CEF5E9400E13D8E /* HXWLeftRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWLeftRootVC.xib; sourceTree = "<group>"; };
+		781D76871CEF672200E13D8E /* HXWDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		781D76881CEF672200E13D8E /* HXWDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWDrawerVisualStateManager.m; sourceTree = "<group>"; };
 		A2D6FD2EB744D32D68835C6D /* Pods-频道切换.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-频道切换.release.xcconfig"; path = "Pods/Target Support Files/Pods-频道切换/Pods-频道切换.release.xcconfig"; sourceTree = "<group>"; };
 		F159BB492C86E31D96137468 /* Pods-频道切换.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-频道切换.debug.xcconfig"; path = "Pods/Target Support Files/Pods-频道切换/Pods-频道切换.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +194,9 @@
 		781D766E1CEF5ADF00E13D8E /* 右侧滑 */ = {
 			isa = PBXGroup;
 			children = (
+				781D767D1CEF5E7B00E13D8E /* HXWRightRootVC.h */,
+				781D767E1CEF5E7B00E13D8E /* HXWRightRootVC.m */,
+				781D767F1CEF5E7B00E13D8E /* HXWRightRootVC.xib */,
 			);
 			path = "右侧滑";
 			sourceTree = "<group>";
@@ -192,6 +213,9 @@
 		781D76701CEF5ADF00E13D8E /* 左侧滑 */ = {
 			isa = PBXGroup;
 			children = (
+				781D76821CEF5E9400E13D8E /* HXWLeftRootVC.h */,
+				781D76831CEF5E9400E13D8E /* HXWLeftRootVC.m */,
+				781D76841CEF5E9400E13D8E /* HXWLeftRootVC.xib */,
 			);
 			path = "左侧滑";
 			sourceTree = "<group>";
@@ -201,6 +225,8 @@
 			children = (
 				781D76721CEF5BB900E13D8E /* HXWNavigationController.h */,
 				781D76731CEF5BB900E13D8E /* HXWNavigationController.m */,
+				781D76871CEF672200E13D8E /* HXWDrawerVisualStateManager.h */,
+				781D76881CEF672200E13D8E /* HXWDrawerVisualStateManager.m */,
 			);
 			path = "左中右都要用的基本控件";
 			sourceTree = "<group>";
@@ -208,6 +234,9 @@
 		781D76761CEF5DCC00E13D8E /* 频道根文件 */ = {
 			isa = PBXGroup;
 			children = (
+				781D76781CEF5E6100E13D8E /* HXWCenterRootVC.h */,
+				781D76791CEF5E6100E13D8E /* HXWCenterRootVC.m */,
+				781D767A1CEF5E6100E13D8E /* HXWCenterRootVC.xib */,
 			);
 			path = "频道根文件";
 			sourceTree = "<group>";
@@ -334,6 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				781514D81CEF548A005D2D24 /* LaunchScreen.storyboard in Resources */,
+				781D76861CEF5E9400E13D8E /* HXWLeftRootVC.xib in Resources */,
+				781D767C1CEF5E6100E13D8E /* HXWCenterRootVC.xib in Resources */,
+				781D76811CEF5E7B00E13D8E /* HXWRightRootVC.xib in Resources */,
 				781514D51CEF548A005D2D24 /* Assets.xcassets in Resources */,
 				781514D31CEF548A005D2D24 /* Main.storyboard in Resources */,
 			);
@@ -409,9 +441,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				781514D01CEF548A005D2D24 /* ViewController.m in Sources */,
+				781D76801CEF5E7B00E13D8E /* HXWRightRootVC.m in Sources */,
 				781514CD1CEF548A005D2D24 /* AppDelegate.m in Sources */,
 				781514CA1CEF548A005D2D24 /* main.m in Sources */,
+				781D76891CEF672200E13D8E /* HXWDrawerVisualStateManager.m in Sources */,
+				781D767B1CEF5E6100E13D8E /* HXWCenterRootVC.m in Sources */,
 				781D76741CEF5BB900E13D8E /* HXWNavigationController.m in Sources */,
+				781D76851CEF5E9400E13D8E /* HXWLeftRootVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,12 +590,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F159BB492C86E31D96137468 /* Pods-频道切换.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/频道切换/工具/PrefixHeader.pch";
 				INFOPLIST_FILE = "频道切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Jim.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -567,12 +605,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A2D6FD2EB744D32D68835C6D /* Pods-频道切换.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/频道切换/工具/PrefixHeader.pch";
 				INFOPLIST_FILE = "频道切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Jim.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
