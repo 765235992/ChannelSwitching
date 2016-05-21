@@ -14,8 +14,10 @@
 
 DKColorPicker DKColorPickerWithRGB(NSUInteger normal, ...) {
     UIColor *normalColor = [UIColor colorWithRed:((float)((normal & 0xFF0000) >> 16))/255.0 green:((float)((normal & 0xFF00) >> 8))/255.0 blue:((float)(normal & 0xFF))/255.0 alpha:1.0];
+    NSLog(@"%@",normalColor);
 
     NSArray<DKThemeVersion *> *themes = [DKColorTable sharedColorTable].themes;
+    NSLog(@"%@",themes);
     NSMutableArray<UIColor *> *colors = [[NSMutableArray alloc] initWithCapacity:themes.count];
     [colors addObject:normalColor];
     NSUInteger num_args = themes.count - 1;

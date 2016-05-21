@@ -21,7 +21,9 @@
 }
 
 - (instancetype)initWithFrame:(CGRect)frame {
+    
     if (self = [super initWithFrame:frame]) {
+        
         self.currentTransformSx = 1.0;
         
     }

@@ -9,8 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "JHScrollSegmentView.h"
 
+typedef void(^contentViewAtNewIndex)(NSInteger index);
 @interface JHContentView : UIView
 - (instancetype)initWithFrame:(CGRect)frame childVcs:(NSArray *)childVcs segmentView:(JHScrollSegmentView *)segmentView parentViewController:(UIViewController *)parentViewController;
+
 
 /*
  * 给外界可以设置ContentOffSet的方法

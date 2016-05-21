@@ -62,7 +62,7 @@ UIColor *DKColorFromRGBA(NSUInteger hex) {
     for (NSString *entry in entries) {
         NSArray *colors = [self colorsFromEntry:entry];
         NSString *key = [self keyFromEntry:entry];
-
+        
         [self addEntryWithKey:key colors:colors themes:self.themes];
     }
 }
@@ -87,6 +87,8 @@ UIColor *DKColorFromRGBA(NSUInteger hex) {
 }
 
 - (void)addEntryWithKey:(NSString *)key colors:(NSArray *)colors themes:(NSArray *)themes {
+    NSLog(@"%@  %@  %@",key,colors,themes);
+
     NSParameterAssert(themes.count == colors.count);
 
     __block NSMutableDictionary *themeToColorDictionary = [@{} mutableCopy];

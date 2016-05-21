@@ -85,7 +85,9 @@
     JHCustomLabel *currentLabel = (JHCustomLabel *)tapGes.view;
     
     if (!currentLabel) {
+        
         return;
+        
     }
     
     _currentIndex = currentLabel.tag;
@@ -112,14 +114,16 @@
         JHCustomLabel *label = [[JHCustomLabel alloc] initWithFrame:CGRectZero];
         label.tag = index;
         label.text = title;
-        label.textColor = self.segmentStyle.normalTitleColor;
+//        label.textColor = self.segmentStyle.normalTitleColor;
+        label.dk_textColorPicker = DKColorPickerWithKey(频道未选择字体颜色);
+
         label.font = self.segmentStyle.titleFont;
         label.textAlignment = NSTextAlignmentCenter;
         label.userInteractionEnabled = YES;
         UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(titleLabelOnClick:)];
         [label addGestureRecognizer:tapGes];
-//        CGRect bounds = [title boundingRectWithSize:CGSizeMake(MAXFLOAT, 0.0) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: label.font} context:nil];
-        [self.titleWidths addObject:@(70)];
+        CGRect bounds = [title boundingRectWithSize:CGSizeMake(MAXFLOAT, 0.0) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: label.font} context:nil];
+        [self.titleWidths addObject:@(bounds.size.width+20)];
         [self.titleLabels addObject:label];
         [self.scrollView addSubview:label];
         
@@ -198,10 +202,14 @@
         
         // 缩放, 设置初始的label的transform
         if (self.segmentStyle.isScaleTitle) {
+            
             firstLabel.currentTransformSx = self.segmentStyle.titleBigScale;
+            
         }
         // 设置初始状态文字的颜色
-        firstLabel.textColor = self.segmentStyle.selectedTitleColor;
+        firstLabel.dk_textColorPicker = DKColorPickerWithKey(频道已选择字体颜色);
+        firstLabel.font = [UIFont fontWithName:@"ArialHebrew-Bold" size:16];
+
     }
     
 }
@@ -248,8 +256,10 @@
     
     __weak typeof(self) weakSelf = self;
     [UIView animateWithDuration:animatedTime animations:^{
-        oldLabel.textColor = weakSelf.segmentStyle.normalTitleColor;
-        currentLabel.textColor = weakSelf.segmentStyle.selectedTitleColor;
+//        oldLabel.textColor = weakSelf.segmentStyle.normalTitleColor;
+        oldLabel.dk_textColorPicker = DKColorPickerWithKey(频道未选择字体颜色);
+
+        currentLabel.dk_textColorPicker = DKColorPickerWithKey(频道已选择字体颜色);
         
         if (weakSelf.segmentStyle.isScaleTitle) {
             oldLabel.currentTransformSx = 1.0;
@@ -277,6 +287,7 @@
     
     _oldIndex = _currentIndex;
     if (self.titleBtnOnClick) {
+        HLog(@"%lu",(unsigned long)_currentIndex);
         self.titleBtnOnClick(currentLabel, _currentIndex);
     }
     
@@ -315,13 +326,14 @@
     }
     
     if (!self.segmentStyle.isScaleTitle) {
+        
         return;
     }
     
     CGFloat deltaScale = self.segmentStyle.titleBigScale - 1.0;
     oldLabel.currentTransformSx = self.segmentStyle.titleBigScale - deltaScale * progress;
     currentLabel.currentTransformSx = 1.0 + deltaScale * progress;
-    
+
     
 }
 
@@ -342,16 +354,21 @@
     if (offSetx > maxOffSetX) {
         offSetx = maxOffSetX;
     }
-    
     [self.scrollView setContentOffset:CGPointMake(offSetx, 0.0) animated:YES];
-    
+    if (self.titleBtnOnClick) {
+        self.titleBtnOnClick(currentLabel, currentIndex);
+    }
+
     if (!self.segmentStyle.isGradualChangeTitleColor) {
         NSInteger index = 0;
         for (JHCustomLabel *label in self.titleLabels) {
             if (index == currentIndex) {
-                label.textColor = self.segmentStyle.selectedTitleColor;
+                label.dk_textColorPicker  = DKColorPickerWithKey(频道已选择字体颜色);
+                label.font = [UIFont fontWithName:@"ArialHebrew-Bold" size:16];
             } else {
-                label.textColor = self.segmentStyle.normalTitleColor;
+                label.dk_textColorPicker = DKColorPickerWithKey(频道未选择字体颜色);
+                label.font = [UIFont fontWithName:@"ArialHebrew" size:14];
+
             }
             index++;
         }

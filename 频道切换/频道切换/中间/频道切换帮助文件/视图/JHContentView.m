@@ -208,6 +208,7 @@
     if(self.segmentView) {
         [self.segmentView adjustTitleOffSetToCurrentIndex:currentIndex];
         [self.segmentView adjustUIWithProgress:1.0 oldIndex:currentIndex currentIndex:currentIndex];
+        
     }
 }
 

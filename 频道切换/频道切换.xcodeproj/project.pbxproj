@@ -30,6 +30,15 @@
 		781D76A21CEF6B0200E13D8E /* JHScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76981CEF6B0200E13D8E /* JHScrollSegmentView.m */; };
 		781D76A31CEF6B0200E13D8E /* JHSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D769A1CEF6B0200E13D8E /* JHSegmentStyle.m */; };
 		781D76A41CEF6B0200E13D8E /* UIView+JHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D769C1CEF6B0200E13D8E /* UIView+JHFrame.m */; };
+		781D76A91CF0976000E13D8E /* HXWRecommendedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76A71CF0976000E13D8E /* HXWRecommendedVC.m */; };
+		781D76AA1CF0976000E13D8E /* HXWRecommendedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76A81CF0976000E13D8E /* HXWRecommendedVC.xib */; };
+		781D76AE1CF0978000E13D8E /* HXWPublicChannelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76AC1CF0978000E13D8E /* HXWPublicChannelVC.m */; };
+		781D76AF1CF0978000E13D8E /* HXWPublicChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76AD1CF0978000E13D8E /* HXWPublicChannelVC.xib */; };
+		781D76B31CF0979900E13D8E /* HXWIssesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76B11CF0979900E13D8E /* HXWIssesVC.m */; };
+		781D76B41CF0979900E13D8E /* HXWIssesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76B21CF0979900E13D8E /* HXWIssesVC.xib */; };
+		781D76B91CF09AEE00E13D8E /* HXWNewsNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76B71CF09AEE00E13D8E /* HXWNewsNormalCell.m */; };
+		781D76BA1CF09AEE00E13D8E /* HXWNewsNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76B81CF09AEE00E13D8E /* HXWNewsNormalCell.xib */; };
+		782C6FC71CF0A3FE0032A10D /* HXWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 782C6FC61CF0A3FE0032A10D /* HXWRefreshHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +102,20 @@
 		781D769A1CEF6B0200E13D8E /* JHSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSegmentStyle.m; sourceTree = "<group>"; };
 		781D769B1CEF6B0200E13D8E /* UIView+JHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHFrame.h"; sourceTree = "<group>"; };
 		781D769C1CEF6B0200E13D8E /* UIView+JHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHFrame.m"; sourceTree = "<group>"; };
+		781D76A61CF0976000E13D8E /* HXWRecommendedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWRecommendedVC.h; sourceTree = "<group>"; };
+		781D76A71CF0976000E13D8E /* HXWRecommendedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWRecommendedVC.m; sourceTree = "<group>"; };
+		781D76A81CF0976000E13D8E /* HXWRecommendedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWRecommendedVC.xib; sourceTree = "<group>"; };
+		781D76AB1CF0978000E13D8E /* HXWPublicChannelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWPublicChannelVC.h; sourceTree = "<group>"; };
+		781D76AC1CF0978000E13D8E /* HXWPublicChannelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWPublicChannelVC.m; sourceTree = "<group>"; };
+		781D76AD1CF0978000E13D8E /* HXWPublicChannelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWPublicChannelVC.xib; sourceTree = "<group>"; };
+		781D76B01CF0979900E13D8E /* HXWIssesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWIssesVC.h; sourceTree = "<group>"; };
+		781D76B11CF0979900E13D8E /* HXWIssesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWIssesVC.m; sourceTree = "<group>"; };
+		781D76B21CF0979900E13D8E /* HXWIssesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWIssesVC.xib; sourceTree = "<group>"; };
+		781D76B61CF09AEE00E13D8E /* HXWNewsNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWNewsNormalCell.h; sourceTree = "<group>"; };
+		781D76B71CF09AEE00E13D8E /* HXWNewsNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWNewsNormalCell.m; sourceTree = "<group>"; };
+		781D76B81CF09AEE00E13D8E /* HXWNewsNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWNewsNormalCell.xib; sourceTree = "<group>"; };
+		782C6FC51CF0A3FE0032A10D /* HXWRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWRefreshHeader.h; sourceTree = "<group>"; };
+		782C6FC61CF0A3FE0032A10D /* HXWRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWRefreshHeader.m; sourceTree = "<group>"; };
 		A2D6FD2EB744D32D68835C6D /* Pods-频道切换.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-频道切换.release.xcconfig"; path = "Pods/Target Support Files/Pods-频道切换/Pods-频道切换.release.xcconfig"; sourceTree = "<group>"; };
 		F159BB492C86E31D96137468 /* Pods-频道切换.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-频道切换.debug.xcconfig"; path = "Pods/Target Support Files/Pods-频道切换/Pods-频道切换.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -290,8 +313,30 @@
 		781D76A51CEF752F00E13D8E /* 所有频道 */ = {
 			isa = PBXGroup;
 			children = (
+				781D76B51CF09ABA00E13D8E /* 新闻Cell */,
+				781D76A61CF0976000E13D8E /* HXWRecommendedVC.h */,
+				781D76A71CF0976000E13D8E /* HXWRecommendedVC.m */,
+				781D76A81CF0976000E13D8E /* HXWRecommendedVC.xib */,
+				781D76AB1CF0978000E13D8E /* HXWPublicChannelVC.h */,
+				781D76AC1CF0978000E13D8E /* HXWPublicChannelVC.m */,
+				781D76AD1CF0978000E13D8E /* HXWPublicChannelVC.xib */,
+				781D76B01CF0979900E13D8E /* HXWIssesVC.h */,
+				781D76B11CF0979900E13D8E /* HXWIssesVC.m */,
+				781D76B21CF0979900E13D8E /* HXWIssesVC.xib */,
 			);
 			path = "所有频道";
+			sourceTree = "<group>";
+		};
+		781D76B51CF09ABA00E13D8E /* 新闻Cell */ = {
+			isa = PBXGroup;
+			children = (
+				781D76B61CF09AEE00E13D8E /* HXWNewsNormalCell.h */,
+				781D76B71CF09AEE00E13D8E /* HXWNewsNormalCell.m */,
+				781D76B81CF09AEE00E13D8E /* HXWNewsNormalCell.xib */,
+				782C6FC51CF0A3FE0032A10D /* HXWRefreshHeader.h */,
+				782C6FC61CF0A3FE0032A10D /* HXWRefreshHeader.m */,
+			);
+			path = "新闻Cell";
 			sourceTree = "<group>";
 		};
 		B0EBE77C686265CD3E7C4EC0 /* Frameworks */ = {
@@ -409,11 +454,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				781514D81CEF548A005D2D24 /* LaunchScreen.storyboard in Resources */,
+				781D76BA1CF09AEE00E13D8E /* HXWNewsNormalCell.xib in Resources */,
+				781D76AA1CF0976000E13D8E /* HXWRecommendedVC.xib in Resources */,
 				781D76861CEF5E9400E13D8E /* HXWLeftRootVC.xib in Resources */,
 				781D767C1CEF5E6100E13D8E /* HXWCenterRootVC.xib in Resources */,
 				781D76811CEF5E7B00E13D8E /* HXWRightRootVC.xib in Resources */,
+				781D76B41CF0979900E13D8E /* HXWIssesVC.xib in Resources */,
 				781514D51CEF548A005D2D24 /* Assets.xcassets in Resources */,
 				781514D31CEF548A005D2D24 /* Main.storyboard in Resources */,
+				781D76AF1CF0978000E13D8E /* HXWPublicChannelVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,17 +538,22 @@
 				781514D01CEF548A005D2D24 /* ViewController.m in Sources */,
 				781D76801CEF5E7B00E13D8E /* HXWRightRootVC.m in Sources */,
 				781D76A21CEF6B0200E13D8E /* JHScrollSegmentView.m in Sources */,
+				781D76A91CF0976000E13D8E /* HXWRecommendedVC.m in Sources */,
 				781D76A01CEF6B0200E13D8E /* JHCustomLabel.m in Sources */,
 				781514CD1CEF548A005D2D24 /* AppDelegate.m in Sources */,
 				781D76A31CEF6B0200E13D8E /* JHSegmentStyle.m in Sources */,
+				781D76AE1CF0978000E13D8E /* HXWPublicChannelVC.m in Sources */,
 				781514CA1CEF548A005D2D24 /* main.m in Sources */,
 				781D76891CEF672200E13D8E /* HXWDrawerVisualStateManager.m in Sources */,
+				781D76B31CF0979900E13D8E /* HXWIssesVC.m in Sources */,
 				781D767B1CEF5E6100E13D8E /* HXWCenterRootVC.m in Sources */,
 				781D76A11CEF6B0200E13D8E /* JHScrollPageView.m in Sources */,
 				781D76741CEF5BB900E13D8E /* HXWNavigationController.m in Sources */,
 				781D76A41CEF6B0200E13D8E /* UIView+JHFrame.m in Sources */,
 				781D769F1CEF6B0200E13D8E /* JHContentView.m in Sources */,
 				781D76851CEF5E9400E13D8E /* HXWLeftRootVC.m in Sources */,
+				782C6FC71CF0A3FE0032A10D /* HXWRefreshHeader.m in Sources */,
+				781D76B91CF09AEE00E13D8E /* HXWNewsNormalCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

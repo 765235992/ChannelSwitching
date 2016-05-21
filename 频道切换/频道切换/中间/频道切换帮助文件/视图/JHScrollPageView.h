@@ -9,11 +9,20 @@
 #import <UIKit/UIKit.h>
 #import "JHScrollSegmentView.h"
 #import "JHContentView.h"
+/*
+ *  编辑按钮点击事件
+ */
 typedef void(^ExtraBtnOnClick)(UIButton *extraBtn);
+/*
+ *  标题点击事件
+ */
+typedef void(^CurrentTitleInfo)(UILabel *label, NSInteger index);
+
 
 @interface JHScrollPageView : UIView
-@property (copy, nonatomic) ExtraBtnOnClick extraBtnOnClick;
 
+@property (copy, nonatomic) ExtraBtnOnClick extraBtnOnClick;
+@property (copy, nonatomic) CurrentTitleInfo currentTitleInfo;
 - (instancetype)initWithFrame:(CGRect)frame segmentStyle:(JHSegmentStyle *)segmentStyle childVcs:(NSArray *)childVcs parentViewController:(UIViewController *)parentViewController;
 
 /*

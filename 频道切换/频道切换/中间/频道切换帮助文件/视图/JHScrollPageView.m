@@ -45,7 +45,7 @@
     self.titlesArray = [NSArray arrayWithArray:tempTitles];
     
     // 触发懒加载
-    self.segmentView.backgroundColor = [UIColor whiteColor];
+    self.segmentView.dk_backgroundColorPicker = DKColorPickerWithKey(频道选择背景颜色);
     self.contentView.backgroundColor = [UIColor whiteColor];
 }
 
@@ -98,8 +98,10 @@
     if (!_segmentView) {
         __weak typeof(self) weakSelf = self;
         JHScrollSegmentView *segment = [[JHScrollSegmentView alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.segmentStyle.segmentHeight) segmentStyle:self.segmentStyle titles:self.titlesArray titleDidClick:^(UILabel *label, NSInteger index) {
-            
             [weakSelf.contentView setContentOffSet:CGPointMake(weakSelf.contentView.bounds.size.width * index, 0.0) animated:NO];
+            if (weakSelf.currentTitleInfo!=nil) {
+                weakSelf.currentTitleInfo(label,index);
+            }
             
         }];
         [self addSubview:segment];
@@ -128,7 +130,10 @@
     self.segmentView.extraBtnOnClick = extraBtnOnClick;
 }
 
-
+- (void)setCurrentTitleInfo:(CurrentTitleInfo)currentTitleInfo
+{
+    _currentTitleInfo = currentTitleInfo;
+}
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.

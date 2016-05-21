@@ -47,7 +47,7 @@ FOUNDATION_EXPORT const unsigned char DKNightVersionVersionString[];
 #import <DKNightVersion/UIView+Night.h>
 #import <DKNightVersion/UIButton+Night.h>
 #import <DKNightVersion/UIImageView+Night.h>
-
+#import "UIView+Night.h"
 #import <DKNightVersion/metamacros.h>
 #import <DKNightVersion/EXTKeyPathCoding.h>
 

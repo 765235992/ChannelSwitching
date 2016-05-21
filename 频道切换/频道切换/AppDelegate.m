@@ -22,6 +22,8 @@
 @implementation AppDelegate
 -(BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
     
+    [self.dk_manager dawnComing];
+
     UIViewController *rightVC =[[HXWRightRootVC alloc]init];
     UINavigationController *rightNavigationVC = [[HXWNavigationController alloc]initWithRootViewController:rightVC];
     [rightNavigationVC setRestorationIdentifier:@"rightNavigationVC"];
@@ -70,6 +72,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+//    self.dk_manager.themeVersion = DKThemeVersionNight;
 
     // Override point for customization after application launch.
     return YES;
