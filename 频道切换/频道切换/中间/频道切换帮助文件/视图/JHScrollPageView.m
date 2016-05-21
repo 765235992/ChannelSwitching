@@ -98,7 +98,7 @@
     if (!_segmentView) {
         __weak typeof(self) weakSelf = self;
         JHScrollSegmentView *segment = [[JHScrollSegmentView alloc] initWithFrame:CGRectMake(0, 0, self.bounds.size.width, self.segmentStyle.segmentHeight) segmentStyle:self.segmentStyle titles:self.titlesArray titleDidClick:^(UILabel *label, NSInteger index) {
-            NSLog(@"%@",label.text);
+            
             [weakSelf.contentView setContentOffSet:CGPointMake(weakSelf.contentView.bounds.size.width * index, 0.0) animated:NO];
             
         }];

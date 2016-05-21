@@ -24,8 +24,6 @@
 		781D76851CEF5E9400E13D8E /* HXWLeftRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76831CEF5E9400E13D8E /* HXWLeftRootVC.m */; };
 		781D76861CEF5E9400E13D8E /* HXWLeftRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76841CEF5E9400E13D8E /* HXWLeftRootVC.xib */; };
 		781D76891CEF672200E13D8E /* HXWDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76881CEF672200E13D8E /* HXWDrawerVisualStateManager.m */; };
-		781D769D1CEF6B0200E13D8E /* JHChannelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D768C1CEF6B0200E13D8E /* JHChannelVC.m */; };
-		781D769E1CEF6B0200E13D8E /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D768F1CEF6B0200E13D8E /* TestVC.m */; };
 		781D769F1CEF6B0200E13D8E /* JHContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76921CEF6B0200E13D8E /* JHContentView.m */; };
 		781D76A01CEF6B0200E13D8E /* JHCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76941CEF6B0200E13D8E /* JHCustomLabel.m */; };
 		781D76A11CEF6B0200E13D8E /* JHScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76961CEF6B0200E13D8E /* JHScrollPageView.m */; };
@@ -83,10 +81,6 @@
 		781D76841CEF5E9400E13D8E /* HXWLeftRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWLeftRootVC.xib; sourceTree = "<group>"; };
 		781D76871CEF672200E13D8E /* HXWDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWDrawerVisualStateManager.h; sourceTree = "<group>"; };
 		781D76881CEF672200E13D8E /* HXWDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWDrawerVisualStateManager.m; sourceTree = "<group>"; };
-		781D768B1CEF6B0200E13D8E /* JHChannelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHChannelVC.h; sourceTree = "<group>"; };
-		781D768C1CEF6B0200E13D8E /* JHChannelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHChannelVC.m; sourceTree = "<group>"; };
-		781D768E1CEF6B0200E13D8E /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
-		781D768F1CEF6B0200E13D8E /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 		781D76911CEF6B0200E13D8E /* JHContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHContentView.h; sourceTree = "<group>"; };
 		781D76921CEF6B0200E13D8E /* JHContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHContentView.m; sourceTree = "<group>"; };
 		781D76931CEF6B0200E13D8E /* JHCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCustomLabel.h; sourceTree = "<group>"; };
@@ -228,6 +222,7 @@
 		781D766F1CEF5ADF00E13D8E /* 中间 */ = {
 			isa = PBXGroup;
 			children = (
+				781D76A51CEF752F00E13D8E /* 所有频道 */,
 				781D76761CEF5DCC00E13D8E /* 频道根文件 */,
 				781D76771CEF5DCC00E13D8E /* 频道切换帮助文件 */,
 			);
@@ -268,29 +263,9 @@
 		781D76771CEF5DCC00E13D8E /* 频道切换帮助文件 */ = {
 			isa = PBXGroup;
 			children = (
-				781D768A1CEF6B0200E13D8E /* 控制器 */,
 				781D76901CEF6B0200E13D8E /* 视图 */,
 			);
 			path = "频道切换帮助文件";
-			sourceTree = "<group>";
-		};
-		781D768A1CEF6B0200E13D8E /* 控制器 */ = {
-			isa = PBXGroup;
-			children = (
-				781D768B1CEF6B0200E13D8E /* JHChannelVC.h */,
-				781D768C1CEF6B0200E13D8E /* JHChannelVC.m */,
-				781D768D1CEF6B0200E13D8E /* 频道 */,
-			);
-			path = "控制器";
-			sourceTree = "<group>";
-		};
-		781D768D1CEF6B0200E13D8E /* 频道 */ = {
-			isa = PBXGroup;
-			children = (
-				781D768E1CEF6B0200E13D8E /* TestVC.h */,
-				781D768F1CEF6B0200E13D8E /* TestVC.m */,
-			);
-			path = "频道";
 			sourceTree = "<group>";
 		};
 		781D76901CEF6B0200E13D8E /* 视图 */ = {
@@ -310,6 +285,13 @@
 				781D769C1CEF6B0200E13D8E /* UIView+JHFrame.m */,
 			);
 			path = "视图";
+			sourceTree = "<group>";
+		};
+		781D76A51CEF752F00E13D8E /* 所有频道 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "所有频道";
 			sourceTree = "<group>";
 		};
 		B0EBE77C686265CD3E7C4EC0 /* Frameworks */ = {
@@ -506,7 +488,6 @@
 			files = (
 				781514D01CEF548A005D2D24 /* ViewController.m in Sources */,
 				781D76801CEF5E7B00E13D8E /* HXWRightRootVC.m in Sources */,
-				781D769D1CEF6B0200E13D8E /* JHChannelVC.m in Sources */,
 				781D76A21CEF6B0200E13D8E /* JHScrollSegmentView.m in Sources */,
 				781D76A01CEF6B0200E13D8E /* JHCustomLabel.m in Sources */,
 				781514CD1CEF548A005D2D24 /* AppDelegate.m in Sources */,
@@ -518,7 +499,6 @@
 				781D76741CEF5BB900E13D8E /* HXWNavigationController.m in Sources */,
 				781D76A41CEF6B0200E13D8E /* UIView+JHFrame.m in Sources */,
 				781D769F1CEF6B0200E13D8E /* JHContentView.m in Sources */,
-				781D769E1CEF6B0200E13D8E /* TestVC.m in Sources */,
 				781D76851CEF5E9400E13D8E /* HXWLeftRootVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

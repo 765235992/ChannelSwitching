@@ -118,8 +118,8 @@
         label.userInteractionEnabled = YES;
         UITapGestureRecognizer *tapGes = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(titleLabelOnClick:)];
         [label addGestureRecognizer:tapGes];
-        CGRect bounds = [title boundingRectWithSize:CGSizeMake(MAXFLOAT, 0.0) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: label.font} context:nil];
-        [self.titleWidths addObject:@(bounds.size.width + 20)];
+//        CGRect bounds = [title boundingRectWithSize:CGSizeMake(MAXFLOAT, 0.0) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName: label.font} context:nil];
+        [self.titleWidths addObject:@(70)];
         [self.titleLabels addObject:label];
         [self.scrollView addSubview:label];
         

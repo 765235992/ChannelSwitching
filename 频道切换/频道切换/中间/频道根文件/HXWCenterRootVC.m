@@ -53,7 +53,7 @@
     // 颜色渐变
     style.gradualChangeTitleColor = YES;
     // 显示附加的按钮
-    style.showExtraButton = YES;
+//    style.showExtraButton = YES;
     // 设置附加按钮的背景图片
     style.extraBtnBackgroundImageName = @"extraBtnBackgroundImage";
     // 设置子控制器 --- 注意子控制器需要设置title, 将用于对应的tag显示title

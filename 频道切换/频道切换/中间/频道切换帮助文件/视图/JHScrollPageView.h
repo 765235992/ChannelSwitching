@@ -10,11 +10,9 @@
 #import "JHScrollSegmentView.h"
 #import "JHContentView.h"
 typedef void(^ExtraBtnOnClick)(UIButton *extraBtn);
-typedef void(^TitleOnClick)(NSString *title);
 
 @interface JHScrollPageView : UIView
 @property (copy, nonatomic) ExtraBtnOnClick extraBtnOnClick;
-@property (copy, nonatomic) TitleOnClick titleOnClick;
 
 - (instancetype)initWithFrame:(CGRect)frame segmentStyle:(JHSegmentStyle *)segmentStyle childVcs:(NSArray *)childVcs parentViewController:(UIViewController *)parentViewController;
 
