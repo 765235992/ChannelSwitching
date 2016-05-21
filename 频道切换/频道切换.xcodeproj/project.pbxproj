@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F14643E313B8CDC392928A3 /* libPods-频道切换.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A12A5FFC90CF2AC840C658E /* libPods-频道切换.a */; };
 		781514CA1CEF548A005D2D24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 781514C91CEF548A005D2D24 /* main.m */; };
 		781514CD1CEF548A005D2D24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 781514CC1CEF548A005D2D24 /* AppDelegate.m */; };
 		781514D01CEF548A005D2D24 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781514CF1CEF548A005D2D24 /* ViewController.m */; };
@@ -15,6 +16,29 @@
 		781514D81CEF548A005D2D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 781514D61CEF548A005D2D24 /* LaunchScreen.storyboard */; };
 		781514E31CEF548A005D2D24 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 781514E21CEF548A005D2D24 /* ____Tests.m */; };
 		781514EE1CEF548A005D2D24 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 781514ED1CEF548A005D2D24 /* ____UITests.m */; };
+		781D76741CEF5BB900E13D8E /* HXWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76731CEF5BB900E13D8E /* HXWNavigationController.m */; };
+		781D767B1CEF5E6100E13D8E /* HXWCenterRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76791CEF5E6100E13D8E /* HXWCenterRootVC.m */; };
+		781D767C1CEF5E6100E13D8E /* HXWCenterRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D767A1CEF5E6100E13D8E /* HXWCenterRootVC.xib */; };
+		781D76801CEF5E7B00E13D8E /* HXWRightRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D767E1CEF5E7B00E13D8E /* HXWRightRootVC.m */; };
+		781D76811CEF5E7B00E13D8E /* HXWRightRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D767F1CEF5E7B00E13D8E /* HXWRightRootVC.xib */; };
+		781D76851CEF5E9400E13D8E /* HXWLeftRootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76831CEF5E9400E13D8E /* HXWLeftRootVC.m */; };
+		781D76861CEF5E9400E13D8E /* HXWLeftRootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76841CEF5E9400E13D8E /* HXWLeftRootVC.xib */; };
+		781D76891CEF672200E13D8E /* HXWDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76881CEF672200E13D8E /* HXWDrawerVisualStateManager.m */; };
+		781D769F1CEF6B0200E13D8E /* JHContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76921CEF6B0200E13D8E /* JHContentView.m */; };
+		781D76A01CEF6B0200E13D8E /* JHCustomLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76941CEF6B0200E13D8E /* JHCustomLabel.m */; };
+		781D76A11CEF6B0200E13D8E /* JHScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76961CEF6B0200E13D8E /* JHScrollPageView.m */; };
+		781D76A21CEF6B0200E13D8E /* JHScrollSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76981CEF6B0200E13D8E /* JHScrollSegmentView.m */; };
+		781D76A31CEF6B0200E13D8E /* JHSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D769A1CEF6B0200E13D8E /* JHSegmentStyle.m */; };
+		781D76A41CEF6B0200E13D8E /* UIView+JHFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D769C1CEF6B0200E13D8E /* UIView+JHFrame.m */; };
+		781D76A91CF0976000E13D8E /* HXWRecommendedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76A71CF0976000E13D8E /* HXWRecommendedVC.m */; };
+		781D76AA1CF0976000E13D8E /* HXWRecommendedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76A81CF0976000E13D8E /* HXWRecommendedVC.xib */; };
+		781D76AE1CF0978000E13D8E /* HXWPublicChannelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76AC1CF0978000E13D8E /* HXWPublicChannelVC.m */; };
+		781D76AF1CF0978000E13D8E /* HXWPublicChannelVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76AD1CF0978000E13D8E /* HXWPublicChannelVC.xib */; };
+		781D76B31CF0979900E13D8E /* HXWIssesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76B11CF0979900E13D8E /* HXWIssesVC.m */; };
+		781D76B41CF0979900E13D8E /* HXWIssesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76B21CF0979900E13D8E /* HXWIssesVC.xib */; };
+		781D76B91CF09AEE00E13D8E /* HXWNewsNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 781D76B71CF09AEE00E13D8E /* HXWNewsNormalCell.m */; };
+		781D76BA1CF09AEE00E13D8E /* HXWNewsNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 781D76B81CF09AEE00E13D8E /* HXWNewsNormalCell.xib */; };
+		782C6FC71CF0A3FE0032A10D /* HXWRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 782C6FC61CF0A3FE0032A10D /* HXWRefreshHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A12A5FFC90CF2AC840C658E /* libPods-频道切换.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-频道切换.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		781514C51CEF548A005D2D24 /* 频道切换.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "频道切换.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		781514C91CEF548A005D2D24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		781514CB1CEF548A005D2D24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +76,48 @@
 		781514E91CEF548A005D2D24 /* 频道切换UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "频道切换UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		781514ED1CEF548A005D2D24 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		781514EF1CEF548A005D2D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		781D76721CEF5BB900E13D8E /* HXWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWNavigationController.h; sourceTree = "<group>"; };
+		781D76731CEF5BB900E13D8E /* HXWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWNavigationController.m; sourceTree = "<group>"; };
+		781D76751CEF5BE400E13D8E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		781D76781CEF5E6100E13D8E /* HXWCenterRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWCenterRootVC.h; sourceTree = "<group>"; };
+		781D76791CEF5E6100E13D8E /* HXWCenterRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWCenterRootVC.m; sourceTree = "<group>"; };
+		781D767A1CEF5E6100E13D8E /* HXWCenterRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWCenterRootVC.xib; sourceTree = "<group>"; };
+		781D767D1CEF5E7B00E13D8E /* HXWRightRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWRightRootVC.h; sourceTree = "<group>"; };
+		781D767E1CEF5E7B00E13D8E /* HXWRightRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWRightRootVC.m; sourceTree = "<group>"; };
+		781D767F1CEF5E7B00E13D8E /* HXWRightRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWRightRootVC.xib; sourceTree = "<group>"; };
+		781D76821CEF5E9400E13D8E /* HXWLeftRootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWLeftRootVC.h; sourceTree = "<group>"; };
+		781D76831CEF5E9400E13D8E /* HXWLeftRootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWLeftRootVC.m; sourceTree = "<group>"; };
+		781D76841CEF5E9400E13D8E /* HXWLeftRootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWLeftRootVC.xib; sourceTree = "<group>"; };
+		781D76871CEF672200E13D8E /* HXWDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		781D76881CEF672200E13D8E /* HXWDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		781D76911CEF6B0200E13D8E /* JHContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHContentView.h; sourceTree = "<group>"; };
+		781D76921CEF6B0200E13D8E /* JHContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHContentView.m; sourceTree = "<group>"; };
+		781D76931CEF6B0200E13D8E /* JHCustomLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHCustomLabel.h; sourceTree = "<group>"; };
+		781D76941CEF6B0200E13D8E /* JHCustomLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHCustomLabel.m; sourceTree = "<group>"; };
+		781D76951CEF6B0200E13D8E /* JHScrollPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHScrollPageView.h; sourceTree = "<group>"; };
+		781D76961CEF6B0200E13D8E /* JHScrollPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHScrollPageView.m; sourceTree = "<group>"; };
+		781D76971CEF6B0200E13D8E /* JHScrollSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHScrollSegmentView.h; sourceTree = "<group>"; };
+		781D76981CEF6B0200E13D8E /* JHScrollSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHScrollSegmentView.m; sourceTree = "<group>"; };
+		781D76991CEF6B0200E13D8E /* JHSegmentStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHSegmentStyle.h; sourceTree = "<group>"; };
+		781D769A1CEF6B0200E13D8E /* JHSegmentStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHSegmentStyle.m; sourceTree = "<group>"; };
+		781D769B1CEF6B0200E13D8E /* UIView+JHFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHFrame.h"; sourceTree = "<group>"; };
+		781D769C1CEF6B0200E13D8E /* UIView+JHFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHFrame.m"; sourceTree = "<group>"; };
+		781D76A61CF0976000E13D8E /* HXWRecommendedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWRecommendedVC.h; sourceTree = "<group>"; };
+		781D76A71CF0976000E13D8E /* HXWRecommendedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWRecommendedVC.m; sourceTree = "<group>"; };
+		781D76A81CF0976000E13D8E /* HXWRecommendedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWRecommendedVC.xib; sourceTree = "<group>"; };
+		781D76AB1CF0978000E13D8E /* HXWPublicChannelVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWPublicChannelVC.h; sourceTree = "<group>"; };
+		781D76AC1CF0978000E13D8E /* HXWPublicChannelVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWPublicChannelVC.m; sourceTree = "<group>"; };
+		781D76AD1CF0978000E13D8E /* HXWPublicChannelVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWPublicChannelVC.xib; sourceTree = "<group>"; };
+		781D76B01CF0979900E13D8E /* HXWIssesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWIssesVC.h; sourceTree = "<group>"; };
+		781D76B11CF0979900E13D8E /* HXWIssesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWIssesVC.m; sourceTree = "<group>"; };
+		781D76B21CF0979900E13D8E /* HXWIssesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWIssesVC.xib; sourceTree = "<group>"; };
+		781D76B61CF09AEE00E13D8E /* HXWNewsNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWNewsNormalCell.h; sourceTree = "<group>"; };
+		781D76B71CF09AEE00E13D8E /* HXWNewsNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWNewsNormalCell.m; sourceTree = "<group>"; };
+		781D76B81CF09AEE00E13D8E /* HXWNewsNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HXWNewsNormalCell.xib; sourceTree = "<group>"; };
+		782C6FC51CF0A3FE0032A10D /* HXWRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HXWRefreshHeader.h; sourceTree = "<group>"; };
+		782C6FC61CF0A3FE0032A10D /* HXWRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HXWRefreshHeader.m; sourceTree = "<group>"; };
+		A2D6FD2EB744D32D68835C6D /* Pods-频道切换.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-频道切换.release.xcconfig"; path = "Pods/Target Support Files/Pods-频道切换/Pods-频道切换.release.xcconfig"; sourceTree = "<group>"; };
+		F159BB492C86E31D96137468 /* Pods-频道切换.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-频道切换.debug.xcconfig"; path = "Pods/Target Support Files/Pods-频道切换/Pods-频道切换.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F14643E313B8CDC392928A3 /* libPods-频道切换.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +146,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25D6D47B8B610251DEF2D8CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F159BB492C86E31D96137468 /* Pods-频道切换.debug.xcconfig */,
+				A2D6FD2EB744D32D68835C6D /* Pods-频道切换.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		781514BC1CEF548A005D2D24 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +162,8 @@
 				781514E11CEF548A005D2D24 /* 频道切换Tests */,
 				781514EC1CEF548A005D2D24 /* 频道切换UITests */,
 				781514C61CEF548A005D2D24 /* Products */,
+				25D6D47B8B610251DEF2D8CA /* Pods */,
+				B0EBE77C686265CD3E7C4EC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +180,11 @@
 		781514C71CEF548A005D2D24 /* 频道切换 */ = {
 			isa = PBXGroup;
 			children = (
+				781D76711CEF5B7F00E13D8E /* 左中右都要用的基本控件 */,
+				781D766D1CEF5ADF00E13D8E /* 工具 */,
+				781D766E1CEF5ADF00E13D8E /* 右侧滑 */,
+				781D766F1CEF5ADF00E13D8E /* 中间 */,
+				781D76701CEF5ADF00E13D8E /* 左侧滑 */,
 				781514CB1CEF548A005D2D24 /* AppDelegate.h */,
 				781514CC1CEF548A005D2D24 /* AppDelegate.m */,
 				781514CE1CEF548A005D2D24 /* ViewController.h */,
@@ -140,6 +224,129 @@
 			path = "频道切换UITests";
 			sourceTree = "<group>";
 		};
+		781D766D1CEF5ADF00E13D8E /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				781D76751CEF5BE400E13D8E /* PrefixHeader.pch */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		781D766E1CEF5ADF00E13D8E /* 右侧滑 */ = {
+			isa = PBXGroup;
+			children = (
+				781D767D1CEF5E7B00E13D8E /* HXWRightRootVC.h */,
+				781D767E1CEF5E7B00E13D8E /* HXWRightRootVC.m */,
+				781D767F1CEF5E7B00E13D8E /* HXWRightRootVC.xib */,
+			);
+			path = "右侧滑";
+			sourceTree = "<group>";
+		};
+		781D766F1CEF5ADF00E13D8E /* 中间 */ = {
+			isa = PBXGroup;
+			children = (
+				781D76A51CEF752F00E13D8E /* 所有频道 */,
+				781D76761CEF5DCC00E13D8E /* 频道根文件 */,
+				781D76771CEF5DCC00E13D8E /* 频道切换帮助文件 */,
+			);
+			path = "中间";
+			sourceTree = "<group>";
+		};
+		781D76701CEF5ADF00E13D8E /* 左侧滑 */ = {
+			isa = PBXGroup;
+			children = (
+				781D76821CEF5E9400E13D8E /* HXWLeftRootVC.h */,
+				781D76831CEF5E9400E13D8E /* HXWLeftRootVC.m */,
+				781D76841CEF5E9400E13D8E /* HXWLeftRootVC.xib */,
+			);
+			path = "左侧滑";
+			sourceTree = "<group>";
+		};
+		781D76711CEF5B7F00E13D8E /* 左中右都要用的基本控件 */ = {
+			isa = PBXGroup;
+			children = (
+				781D76721CEF5BB900E13D8E /* HXWNavigationController.h */,
+				781D76731CEF5BB900E13D8E /* HXWNavigationController.m */,
+				781D76871CEF672200E13D8E /* HXWDrawerVisualStateManager.h */,
+				781D76881CEF672200E13D8E /* HXWDrawerVisualStateManager.m */,
+			);
+			path = "左中右都要用的基本控件";
+			sourceTree = "<group>";
+		};
+		781D76761CEF5DCC00E13D8E /* 频道根文件 */ = {
+			isa = PBXGroup;
+			children = (
+				781D76781CEF5E6100E13D8E /* HXWCenterRootVC.h */,
+				781D76791CEF5E6100E13D8E /* HXWCenterRootVC.m */,
+				781D767A1CEF5E6100E13D8E /* HXWCenterRootVC.xib */,
+			);
+			path = "频道根文件";
+			sourceTree = "<group>";
+		};
+		781D76771CEF5DCC00E13D8E /* 频道切换帮助文件 */ = {
+			isa = PBXGroup;
+			children = (
+				781D76901CEF6B0200E13D8E /* 视图 */,
+			);
+			path = "频道切换帮助文件";
+			sourceTree = "<group>";
+		};
+		781D76901CEF6B0200E13D8E /* 视图 */ = {
+			isa = PBXGroup;
+			children = (
+				781D76911CEF6B0200E13D8E /* JHContentView.h */,
+				781D76921CEF6B0200E13D8E /* JHContentView.m */,
+				781D76931CEF6B0200E13D8E /* JHCustomLabel.h */,
+				781D76941CEF6B0200E13D8E /* JHCustomLabel.m */,
+				781D76951CEF6B0200E13D8E /* JHScrollPageView.h */,
+				781D76961CEF6B0200E13D8E /* JHScrollPageView.m */,
+				781D76971CEF6B0200E13D8E /* JHScrollSegmentView.h */,
+				781D76981CEF6B0200E13D8E /* JHScrollSegmentView.m */,
+				781D76991CEF6B0200E13D8E /* JHSegmentStyle.h */,
+				781D769A1CEF6B0200E13D8E /* JHSegmentStyle.m */,
+				781D769B1CEF6B0200E13D8E /* UIView+JHFrame.h */,
+				781D769C1CEF6B0200E13D8E /* UIView+JHFrame.m */,
+			);
+			path = "视图";
+			sourceTree = "<group>";
+		};
+		781D76A51CEF752F00E13D8E /* 所有频道 */ = {
+			isa = PBXGroup;
+			children = (
+				781D76B51CF09ABA00E13D8E /* 新闻Cell */,
+				781D76A61CF0976000E13D8E /* HXWRecommendedVC.h */,
+				781D76A71CF0976000E13D8E /* HXWRecommendedVC.m */,
+				781D76A81CF0976000E13D8E /* HXWRecommendedVC.xib */,
+				781D76AB1CF0978000E13D8E /* HXWPublicChannelVC.h */,
+				781D76AC1CF0978000E13D8E /* HXWPublicChannelVC.m */,
+				781D76AD1CF0978000E13D8E /* HXWPublicChannelVC.xib */,
+				781D76B01CF0979900E13D8E /* HXWIssesVC.h */,
+				781D76B11CF0979900E13D8E /* HXWIssesVC.m */,
+				781D76B21CF0979900E13D8E /* HXWIssesVC.xib */,
+			);
+			path = "所有频道";
+			sourceTree = "<group>";
+		};
+		781D76B51CF09ABA00E13D8E /* 新闻Cell */ = {
+			isa = PBXGroup;
+			children = (
+				781D76B61CF09AEE00E13D8E /* HXWNewsNormalCell.h */,
+				781D76B71CF09AEE00E13D8E /* HXWNewsNormalCell.m */,
+				781D76B81CF09AEE00E13D8E /* HXWNewsNormalCell.xib */,
+				782C6FC51CF0A3FE0032A10D /* HXWRefreshHeader.h */,
+				782C6FC61CF0A3FE0032A10D /* HXWRefreshHeader.m */,
+			);
+			path = "新闻Cell";
+			sourceTree = "<group>";
+		};
+		B0EBE77C686265CD3E7C4EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A12A5FFC90CF2AC840C658E /* libPods-频道切换.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +354,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 781514F21CEF548A005D2D24 /* Build configuration list for PBXNativeTarget "频道切换" */;
 			buildPhases = (
+				4A86D11D25A980243A24F6A2 /* 📦 Check Pods Manifest.lock */,
 				781514C11CEF548A005D2D24 /* Sources */,
 				781514C21CEF548A005D2D24 /* Frameworks */,
 				781514C31CEF548A005D2D24 /* Resources */,
+				0446645F0690BBB4C8FAC0BF /* 📦 Embed Pods Frameworks */,
+				BB7C51844CC2D06649F672E7 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,8 +454,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				781514D81CEF548A005D2D24 /* LaunchScreen.storyboard in Resources */,
+				781D76BA1CF09AEE00E13D8E /* HXWNewsNormalCell.xib in Resources */,
+				781D76AA1CF0976000E13D8E /* HXWRecommendedVC.xib in Resources */,
+				781D76861CEF5E9400E13D8E /* HXWLeftRootVC.xib in Resources */,
+				781D767C1CEF5E6100E13D8E /* HXWCenterRootVC.xib in Resources */,
+				781D76811CEF5E7B00E13D8E /* HXWRightRootVC.xib in Resources */,
+				781D76B41CF0979900E13D8E /* HXWIssesVC.xib in Resources */,
 				781514D51CEF548A005D2D24 /* Assets.xcassets in Resources */,
 				781514D31CEF548A005D2D24 /* Main.storyboard in Resources */,
+				781D76AF1CF0978000E13D8E /* HXWPublicChannelVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +482,78 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0446645F0690BBB4C8FAC0BF /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-频道切换/Pods-频道切换-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A86D11D25A980243A24F6A2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7C51844CC2D06649F672E7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-频道切换/Pods-频道切换-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		781514C11CEF548A005D2D24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				781514D01CEF548A005D2D24 /* ViewController.m in Sources */,
+				781D76801CEF5E7B00E13D8E /* HXWRightRootVC.m in Sources */,
+				781D76A21CEF6B0200E13D8E /* JHScrollSegmentView.m in Sources */,
+				781D76A91CF0976000E13D8E /* HXWRecommendedVC.m in Sources */,
+				781D76A01CEF6B0200E13D8E /* JHCustomLabel.m in Sources */,
 				781514CD1CEF548A005D2D24 /* AppDelegate.m in Sources */,
+				781D76A31CEF6B0200E13D8E /* JHSegmentStyle.m in Sources */,
+				781D76AE1CF0978000E13D8E /* HXWPublicChannelVC.m in Sources */,
 				781514CA1CEF548A005D2D24 /* main.m in Sources */,
+				781D76891CEF672200E13D8E /* HXWDrawerVisualStateManager.m in Sources */,
+				781D76B31CF0979900E13D8E /* HXWIssesVC.m in Sources */,
+				781D767B1CEF5E6100E13D8E /* HXWCenterRootVC.m in Sources */,
+				781D76A11CEF6B0200E13D8E /* JHScrollPageView.m in Sources */,
+				781D76741CEF5BB900E13D8E /* HXWNavigationController.m in Sources */,
+				781D76A41CEF6B0200E13D8E /* UIView+JHFrame.m in Sources */,
+				781D769F1CEF6B0200E13D8E /* JHContentView.m in Sources */,
+				781D76851CEF5E9400E13D8E /* HXWLeftRootVC.m in Sources */,
+				782C6FC71CF0A3FE0032A10D /* HXWRefreshHeader.m in Sources */,
+				781D76B91CF09AEE00E13D8E /* HXWNewsNormalCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,23 +694,31 @@
 		};
 		781514F31CEF548A005D2D24 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F159BB492C86E31D96137468 /* Pods-频道切换.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/频道切换/工具/PrefixHeader.pch";
 				INFOPLIST_FILE = "频道切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Jim.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		781514F41CEF548A005D2D24 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D6FD2EB744D32D68835C6D /* Pods-频道切换.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/频道切换/工具/PrefixHeader.pch";
 				INFOPLIST_FILE = "频道切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Jim.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -498,6 +787,7 @@
 				781514F41CEF548A005D2D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		781514F51CEF548A005D2D24 /* Build configuration list for PBXNativeTarget "频道切换Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +796,7 @@
 				781514F71CEF548A005D2D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		781514F81CEF548A005D2D24 /* Build configuration list for PBXNativeTarget "频道切换UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +805,7 @@
 				781514FA1CEF548A005D2D24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

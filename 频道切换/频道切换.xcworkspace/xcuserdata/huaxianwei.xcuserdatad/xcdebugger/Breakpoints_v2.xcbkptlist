@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x9891;&#x9053;&#x5207;&#x6362;/&#x4e2d;&#x95f4;/&#x9891;&#x9053;&#x5207;&#x6362;&#x5e2e;&#x52a9;&#x6587;&#x4ef6;/&#x89c6;&#x56fe;/JHScrollSegmentView.m"
+            timestampString = "485529076.556704"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "542"
+            endingLineNumber = "542"
+            landmarkName = "-normalColorRgb"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x9891;&#x9053;&#x5207;&#x6362;/&#x4e2d;&#x95f4;/&#x9891;&#x9053;&#x5207;&#x6362;&#x5e2e;&#x52a9;&#x6587;&#x4ef6;/&#x89c6;&#x56fe;/JHScrollSegmentView.m"
+            timestampString = "485529076.556704"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "552"
+            endingLineNumber = "552"
+            landmarkName = "-selectedColorRgb"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
